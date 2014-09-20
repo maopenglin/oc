@@ -1,0 +1,2 @@
+apns pem 文件生成 shell 命令
+openssl pkcs12 -in 证书.p12 -out ck.pem -nodes
