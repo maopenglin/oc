@@ -1,0 +1,15 @@
+ios8地图定位失败 解决方法
+plist 文件添加 NSLocationWhenInUseUsageDescription  NSLocationAlwaysUsageDescription
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>The spirit of stack overflow is coders helping coders</string>
+
+<key>NSLocationAlwaysUsageDescription</key>
+<string>I have learned more on stack overflow than anything else</string>
+
+
+
+[CLLocationManager requestWhenInUseAuthorization] or -[CLLocationManager requestAlwaysAuthorization] 
+
+
+
+http://stackoverflow.com/questions/24062509/ios-8-location-services-not-working
